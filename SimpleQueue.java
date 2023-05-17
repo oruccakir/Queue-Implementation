@@ -140,7 +140,7 @@ public class SimpleQueue <T> implements QueueInterface{
 
         System.out.println("Size : "+queue.size());
 
-
+    
         
     }
 
