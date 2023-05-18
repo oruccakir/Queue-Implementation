@@ -25,6 +25,8 @@ public class QueueStack2 implements QueueInterface{
 
     @Override
     public void dequeue() {
+
+        if(stack1.isEmpty() && stack2.isEmpty()) return;
        
         if(stack2.isEmpty()) while(stack1.isEmpty() == false) stack2.push(stack1.pop());
 
